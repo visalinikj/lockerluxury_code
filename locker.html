@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>LOCKER LUXURY</h2>
+    <form id="otpForm">
+      <!-- Input for Mobile Number -->
+      <label for="mobile">Enter Mobile Number:</label><br>
+      <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number" required><br>
+      
+      <!-- Button to Send OTP -->
+      <button type="button" onclick="sendOTP()">Send OTP</button><br><br>
+      
+      <!-- Input for OTP -->
+      <label for="otp">Enter OTP:</label><br>
+      <input type="number" id="otp" name="otp" placeholder="Enter OTP" required><br>
+      
+      <!-- Button to Verify OTP -->
+      <button type="submit">Verify OTP</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
